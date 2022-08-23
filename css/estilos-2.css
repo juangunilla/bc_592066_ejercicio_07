@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&family=Red+Hat+Display:ital,wght@1,300&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing:border-box;
+}
+
+.fondo{
+    background-image: url("https://images.pexels.com/photos/1293261/pexels-photo-1293261.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
+    background-size: cover;
+    text-align: center;
+    font-size: 2em;
+    color: white;
+    
+
+}
+h1{
+    background: rgb(19,228,178);
+    background: linear-gradient(90deg, rgba(19,228,178,1) 0%, rgba(89,226,35,1) 35%, rgba(0,212,255,1) 100%);
+    text-align: center;
+    font-size: 5em;
+    font-family: 'Lobster', cursive;
+    text-shadow: 2px 2px 2px lightgrey;
+    border-bottom: 4px solid black;
+    padding-bottom: 4px;
+
+}
+
+.subtitulo{
+    border: 2px solid black;
+    background-color: rgba(255, 16, 16, 0.996);
+}
+
+img{
+    margin-top: 10px;
+    box-shadow: 2px 2px 2px 2px black;
+    border: 3px solid red;
+}
+ .blanco{
+    display: flex;
+    flex-direction: column;
+ }
+.parrafos{
+    font-family: 'Red Hat Display', sans-serif;
+    background-color: black;
+    padding: 20px;
+    width: 70vw;
+    align-self: center;
+    box-shadow: 2px 2px 2px 2px white;
+    margin:15px;
+}
+
+.boton{
+    text-decoration: none;
+    background-color: blue;
+    display: flex;
+    width: auto;
+    align-self: center;
+    color: white;
+    padding-right: 10px;
+    border: 2px solid black;
+    border-radius: 20px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    box-shadow: 1px 1px 1px 1px white;
+    padding-left: 10px;
+    cursor: pointer;
+}
+.boton:hover{
+    background-color:orange ;
+    color: red;
+}
+
+footer{
+    background: rgb(19,228,178);
+    background: linear-gradient(90deg, rgba(19,228,178,1) 0%, rgba(89,226,35,1) 35%, rgba(0,212,255,1) 100%);
+    text-align:center;  
+    height: 80px;
+    font-size: 1.8em;
+    line-height: 80px;
+    font-weight: bold;
+    font-style: italic;
+}
